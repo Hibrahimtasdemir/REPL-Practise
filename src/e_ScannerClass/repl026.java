@@ -1,0 +1,18 @@
+package e_ScannerClass;
+
+import java.util.Scanner;
+
+public class repl026 {
+	// For you to do:
+		// Write a program that takes a user's name and prints it.
+
+		// Output: "Your name is_"+ any variable name.
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter your name");
+		String name = scan.nextLine();
+		System.out.println("Your name is " + name);
+	}
+
+}
